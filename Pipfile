@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pylint = "==3.0.2"
+scipy = "==1.11.3"
+numpy = "==1.26.1"
+
+[dev-packages]
+pytest = "==7.4.3"
+black = "==23.10.1"
+tensorflow-macos = "*"
+tensorflow-metal = "*"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.11"
