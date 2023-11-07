@@ -112,6 +112,5 @@ class Graph:
         if coo is None:
             return None
 
-        indices = np.array([coo.row, coo.col]).transpose()  
+        indices = np.array([coo.row, coo.col]).transpose()
         return tf.SparseTensor(indices, coo.data.astype(np.float32), coo.shape)
-
